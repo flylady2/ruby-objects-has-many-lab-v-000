@@ -11,9 +11,7 @@ class Post
     @@all
   end
 
-  def title
-    self.title
-  end
+
 
   def author
   end
