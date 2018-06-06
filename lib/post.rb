@@ -18,8 +18,8 @@ class Post
   end
 
   def author_name
-    if author_name == author_name
-      author_name
+    if self.author
+      self.author.name
     else
       nil
     end
