@@ -14,10 +14,11 @@ class Post
 
 
   def author
+    
 
   end
 
-  def author_name(post)
+  def author_name
     if self.author
       self.author.name
     else
